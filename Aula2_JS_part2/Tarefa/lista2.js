@@ -18,6 +18,10 @@
 //     }
 //     return total;
     
+//     // let total = 0;
+//     // array.forEach((numero, index, array) => { total += numero });
+//     // return total;
+
 //     //return array.reduce((resultado, numero, index, array) => resultado + numero, 0);
 //     // resultado - The total (the initial value / previously returned value)
 //     // numero - The item value
@@ -32,39 +36,39 @@
 // console.log(somarElementos(numeros1));
 
 // 4. Função para retornar array de números ímpares
-let numerosImpares = function(array) {
-    let newArray = [];
-    for (let item of array) {
-        if (item % 2 !== 0) {
-            newArray.push(item);
-        }
-    }
-    return newArray;
+// let numerosImpares = function(array) {
+//     let newArray = [];
+//     for (let item of array) {
+//         if (item % 2 !== 0) {
+//             newArray.push(item);
+//         }
+//     }
+//     return newArray;
 
-    // return array.filter((numero) => numero % 2 !== 0);
-};
+//     //return array.filter((numero) => numero % 2 !== 0);
+// };
 
-let numeros2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-console.log(numerosImpares(numeros2));
+// let numeros2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(numerosImpares(numeros2));
 
 // 5. Adicionar e remover elementos de um array
-let cidades = ["Sorocaba", "Piedade", "Votorantim"];
-cidades.unshift("São Paulo"); // Adiciona no início
-cidades.pop(); // Remove último
-console.log(cidades);
+// let cidades = ["Sorocaba", "Piedade", "Votorantim"];
+// cidades.unshift("São Paulo"); // Adiciona no início
+// cidades.pop(); // Remove último
+// console.log(cidades);
 
 // 6. Objeto aluno com método mostrarInformacoes
-let aluno = {
-    nome: "João",
-    idade: 20,
-    curso: "Engenharia",
-    matricula: "12345",
-    mostrarInformacoes: function() {
-        console.log(`Nome: ${this.nome}, Idade: ${this.idade}, Curso: ${this.curso}, Matrícula: ${this.matricula}`);
-    }
-};
+// let aluno = {
+//     nome: "João",
+//     idade: 20,
+//     curso: "Engenharia",
+//     matricula: "12345",
+//     mostrarInformacoes: function() {
+//         console.log(`Nome: ${this.nome}, Idade: ${this.idade}, Curso: ${this.curso}, Matrícula: ${this.matricula}`);
+//     }
+// };
 
-aluno.mostrarInformacoes();
+// aluno.mostrarInformacoes();
 
 // 7. Função para encontrar o maior número em um array
 // let encontraMaiorNumero = function(array) {
@@ -120,7 +124,7 @@ aluno.mostrarInformacoes();
 //     }
 //     return newArray;
 
-//     //return arrayAlunos.filter(aluno => aluno.idade > 18);
+//     // return arrayAlunos.filter(aluno => aluno.idade > 18);
 // };
 
 // let arrayAlunos = [
