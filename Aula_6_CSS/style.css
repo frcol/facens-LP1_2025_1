@@ -1,0 +1,61 @@
+* {
+    /* Define as propriedades de margem, preenchimento e borda como zero para todos os elementos. */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    /* Define o tamanho da fonte para 100% do tamanho padrão. */
+    font-size: 100%;
+
+    /* Herda o estilo de fonte do elemento pai, mantendo a coesão do design. */
+    font: inherit;
+
+    /* Alinha verticalmente o elemento na linha de base, para melhor alinhamento de texto. */
+    vertical-align: baseline;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+
+p {
+    color: rgb(128, 0, 96);
+}
+
+h1 {
+    color: red;
+    background-color: yellow;
+}
+
+.minhaClasse {
+    color: rgb(253, 0, 215);
+    font-size: 6px;
+}
+
+#abc {
+    color: rgb(255, 168, 5);
+}
+
+img {
+    width: 200px;
+    border-radius: 100px;
+    border: 5px solid black;
+}
+
+.pixelify-sans {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 60px;
+    font-style: normal;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #f06d06;
+    border: 2px solid #000;
+    margin: 10px;
+    padding: 10px;
+  }
