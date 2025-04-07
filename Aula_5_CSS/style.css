@@ -1,0 +1,81 @@
+* {
+    /* Define as propriedades de margem, preenchimento e borda como zero para todos os elementos. */
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    /* Define o tamanho da fonte para 100% do tamanho padrão. */
+    font-size: 100%;
+    /* Herda o estilo de fonte do elemento pai, mantendo a coesão do design. */
+    font: inherit;
+    /* Alinha verticalmente o elemento na linha de base, para melhor alinhamento de texto. */
+    vertical-align: baseline;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.test_boxmodel_1 {
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    background-color: blueviolet;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+nav {
+    background-color: #000000;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #de2e2e;
+    cursor: pointer;
+}
+
+
+nav {
+    background-color: #000000;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+/* criar um footer sem usar flexbox */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+}
