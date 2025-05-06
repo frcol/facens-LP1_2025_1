@@ -1,5 +1,7 @@
 let listaClientes = [];
 
+AtualizarLista();
+
 function adicionarCliente() {
     let nome = document.querySelector('#nome').value;
     let idade = document.querySelector('#idade').value;
