@@ -1,0 +1,34 @@
+{
+  "animais": [
+    {
+      "nome": "Cachorro",
+      "idade": "5",
+      "raca": "Vira-lata",
+      "id": "1"
+    },
+    {
+      "nome": "Papagaio Verde",
+      "idade": "100",
+      "raca": "Ararauna",
+      "id": "3"
+    },
+    {
+      "nome": "Gato Preto",
+      "idade": "4",
+      "raca": "Siames",
+      "id": "2"
+    },
+    {
+      "nome": "Cavalo",
+      "idade": "10",
+      "raca": "Puro Sangue",
+      "id": "4"
+    },
+    {
+      "id": "e59d",
+      "nome": "Mel",
+      "idade": "3",
+      "raca": "Shitzu"
+    }
+  ]
+}
